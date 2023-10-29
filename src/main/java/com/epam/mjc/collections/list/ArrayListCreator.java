@@ -9,6 +9,7 @@ public class ArrayListCreator {
 
         for (int i = 2; i < sourceList.size(); i += 3) {
             String word = sourceList.get(i);
+            result.add(sourceList.get(i));
             result.add(word);
         }
 
